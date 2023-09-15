@@ -1,0 +1,56 @@
+#final{
+    background-color: #2fce13;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#Submit-contain{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the download link */
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
+
+#download_code{
+     margin: 10px;
+}
+#textarea-container {
+    width: 300px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    border: 1px solid #ccc; /* Optional: Add a border for visual distinction */
+    padding: 0px; /* Optional: Add padding for spacing */
+    display: flex;
+    justify-content: center;
+    
+
+}
+#output {
+    width: 100%; /* Set the width of the textarea to 100% of its parent div */
+    height: 100%; /* Set the height of the textarea to 100% of its parent div */
+    border: none; /* Remove the textarea border */
+    resize: none; /* Optional: Disable textarea resizing */
+}
+#final{
+    margin: 10px;
+    padding: 5px 10px; /* Adjust padding to make the button smaller */
+    font-size: 14px; /* Adjust font size to make the text smaller */
+    height: 35px;
+}

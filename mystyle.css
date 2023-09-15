@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4eded;
+    margin: 0;
+    padding: 0;
+      background-image: url('background.jpg');  
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+
+    /* filter: blur(10px); */
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   
+    border-radius: 8px;
+    /* filter: blur(10px); */
+    border: none;
+    
+    padding: 20px; /* Add padding to create space between content and the div edges */
+    max-width: 800px; /* Set a maximum width for the div */
+    margin: 0 auto;
+    height: 80vh;
+
+
+    
+}
+.question p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(234, 182, 9, 0.862);
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+}
+
+.question {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.start-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    
+}
+
+/* #final{
+    background-color: #2fce13;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+} */
+#Submit-contain{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the download link */
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
+
+#download_code{
+     margin: 10px;
+}
+#textarea-container_c {
+    width: 300px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    border: 1px solid #ccc; /* Optional: Add a border for visual distinction */
+    padding: 0px; /* Optional: Add padding for spacing */
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#textarea-container_p {
+    width: 300px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    border: 1px solid #ccc; /* Optional: Add a border for visual distinction */
+    padding: 0px; /* Optional: Add padding for spacing */
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+#p_output {
+    width: 100%; /* Set the width of the textarea to 100% of its parent div */
+    height: 100%; /* Set the height of the textarea to 100% of its parent div */
+    border: none; /* Remove the textarea border */
+    resize: none; /* Optional: Disable textarea resizing */
+    font-weight: bold;
+    
+}
+
+#c_output {
+    width: 100%; /* Set the width of the textarea to 100% of its parent div */
+    height: 100%; /* Set the height of the textarea to 100% of its parent div */
+    border: none; /* Remove the textarea border */
+    resize: none; /* Optional: Disable textarea resizing */
+}
+
+#c_final{
+    margin: 15px;
+    padding: 5px 10px; /* Adjust padding to make the button smaller */
+    font-size: 14px; /* Adjust font size to make the text smaller */
+    height: 35px;
+    background-color: #2fce13;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#p_final{
+    margin: 15px;
+    padding: 5px 10px; /* Adjust padding to make the button smaller */
+    font-size: 14px; /* Adjust font size to make the text smaller */
+    height: 35px;
+    background-color: #2fce13;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.start-button:hover {
+    background-color: #ef4f4f;
+}
+#spot{
+    background-color: aqua;
+    height: 100px;
+}
+#logo img{
+    position: relative;
+    position: absolute;
+    right:10px;
+    height: 120px;
+}
+.start-button{
+    text-decoration: none;
+}
+
